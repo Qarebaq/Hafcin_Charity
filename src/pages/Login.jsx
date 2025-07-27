@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './Login.css';
+
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -19,6 +21,7 @@ function Login() {
   };
 
   return (
+
     <div style={{ padding: '2rem' }}>
       <h2>ورود</h2>
       <form onSubmit={handleLogin}>
