@@ -1,16 +1,27 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import './Home.css'
 
 function Home() {
   return (
-    
-    <div dir="rtl" style={{ padding: '2rem' , fontFamily: 'Vazirmatn, sans-serif' }}>
+
+    <div>
       <Navbar />
-      
-      <h2 style={{  color: 'purple'}}>کمک برای ساختن زندگی های زیباتر</h2>
-      <p>ما از طریق کمک ها و حمایت های شما زندگی زیباتری را به خانواده های تحت پوششمان هدیه میکنیم</p>
-      <Footer />
+    <section className="hero">
+      <div className="hero-image-placeholder"></div>
+      <div className="hero-text">
+        <h1>کمک برای ساختن <br /> زندگی‌های زیباتر</h1>
+        <p>ما از طریق کمک‌ها و حمایت‌های شما زندگی زیباتری را به خانواده‌های تحت پوشش‌مان هدیه می‌کنیم</p>
+        <button className="hero-btn">
+          {/* <FaArrowLeft /> */}
+          <span>حمایت</span>
+        </button>
+      </div>
+    </section>
+    
+    <Footer />
+    
     </div>
   );
 }
