@@ -21,7 +21,7 @@ function Login() {
 
   return (
     <div className="login-container">
-      <div className="logo">هم‌مسیر</div>
+    <img style={{width: '100%'}} src="/assests/logo.png" alt="لوگو" className="logo" />
 
       <div className="tabs">
         <button className="tab active">وام‌دهنده</button>
