@@ -1,0 +1,20 @@
+.report-list-wrapper {
+  padding: 2rem;
+  text-align: center;
+  direction: rtl;
+  font-family: Vazirmatn, sans-serif;
+}
+
+.report-section-title {
+  color: #5b3f84;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.report-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}

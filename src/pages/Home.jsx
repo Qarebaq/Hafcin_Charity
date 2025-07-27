@@ -1,7 +1,10 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import './Home.css'
+import LoanList from '../components/LoanList';
+import ReportList from '../components/ReportList';
+
+import './Home.css';
 
 function Home() {
   return (
@@ -14,12 +17,18 @@ function Home() {
         <h1>کمک برای ساختن <br /> زندگی‌های زیباتر</h1>
         <p>ما از طریق کمک‌ها و حمایت‌های شما زندگی زیباتری را به خانواده‌های تحت پوشش‌مان هدیه می‌کنیم</p>
         <button className="hero-btn">
-          {/* <FaArrowLeft /> */}
+    
           <span>حمایت</span>
         </button>
+      
+
       </div>
+
     </section>
-    
+          <LoanList />
+       <ReportList />
+
+
     <Footer />
     
     </div>

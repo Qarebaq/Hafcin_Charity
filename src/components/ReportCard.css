@@ -1,0 +1,40 @@
+.report-card {
+  width: 300px;
+  border-radius: 16px;
+  overflow: hidden;
+  font-family: Vazirmatn, sans-serif;
+  direction: rtl;
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.report-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.report-footer {
+  background-color: #5b3f84;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.report-title {
+  font-weight: bold;
+}
+
+.report-subtitle {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.arrow {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,38 @@
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font/dist/font-face.css');
+
+
+
+
+.loan-list-wrapper {
+  padding: 2rem;
+  text-align: center;
+  direction: rtl;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.section-title {
+  color: #4b3b69;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.loan-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.see-all-btn {
+  margin-top: 2rem;
+  background-color: #5b3f84;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+    font-family: "Vazirmatn", sans-serif;
+
+}
