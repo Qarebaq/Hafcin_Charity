@@ -1,0 +1,80 @@
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font/dist/font-face.css');
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  font-family: Vazir, sans-serif;
+  direction: rtl;
+  flex-wrap: wrap;
+}
+
+.footer-box {
+  background-color: #edf0f6;
+  border-radius: 12px;
+  padding: 20px;
+  width: 260px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #4b3b67;
+}
+
+.logo-box {
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* گروه وسط (اطلاعات + سوشال باکس زیرش) */
+.contact-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* باکس شبکه‌های اجتماعی جداگانه */
+.social-box {
+  text-align: right;
+}
+
+.social-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+  font-size: 1.3rem;
+  color: #6c469c;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.posts-box ul {
+  padding-right: 18px;
+  list-style-type: disc;
+  margin: 0;
+  color: #4b3b67;
+}
