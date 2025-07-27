@@ -14,12 +14,10 @@ function Footer() {
   return (
     <footer className="footer">
 
-      {/* راست: لوگو */}
       <div className="footer-box logo-box">
         <img style={{width: '100%' , padding: '10px' , margin:'34px'}} src="/assests/enamad.jpg" alt="لوگو" className="logo" />
       </div>
 
-      {/* وسط: اطلاعات تماس */}
       <div className="contact-group">
         <div className="footer-box contact-box">
           <div className="contact-item"><FaPhoneAlt /> <span>۰۹۳۵۶۱۰۲۱۵۰</span></div>
@@ -28,7 +26,6 @@ function Footer() {
           <div className="contact-item"><FaCalendarAlt /> <span>شنبه تا چهارشنبه: ۱۱ الی ۱۷</span></div>
         </div>
 
-        {/* باکس جدا: شبکه‌های اجتماعی */}
         <div className="footer-box social-box">
           <p className="social-title">شبکه‌های اجتماعی</p>
           <div className="social-icons">

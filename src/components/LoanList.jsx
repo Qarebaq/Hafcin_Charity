@@ -35,6 +35,7 @@ const loans = [
     urgent: true,
     image: '/assests/images/temp.jpg',
   },
+  
   // Add more as needed
 ];
 

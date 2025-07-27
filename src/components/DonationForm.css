@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+
+body, input, textarea, button {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.donation-container {
+      font-family: 'Vazirmatn', sans-serif;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  direction: rtl;
+  color: #1a202c;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #6b46c1;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.form-section, .side-section {
+  flex: 1;
+  min-width: 320px;
+}
+
+.form-section {
+  background-color: #edf0f6;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.input-group input {
+  padding: 0.9rem 1rem;
+  border: 1px solid #edf0f6;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: #fff;
+  outline: none;
+}
+
+.select-button {
+  flex: 1;
+  padding: 0.9rem 1rem;
+  border: 1px solid #edf0f6;
+  background-color: #fff;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.select-button:hover {
+  background-color: #edf0f6;
+}
+
+.description-box {
+  width: 100%;
+  min-height: 100px;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #edf0f6;
+  background-color: #fff;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+
+
+.tab {
+ font-family: "Vazirmatn", sans-serif;
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border: none;
+  background: transparent;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.tab.active {
+          font-family: "Vazirmatn", sans-serif;
+
+  background-color: #ffffff;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.card-box {
+  background-color: #edf0f6;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.card-box p {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: ltr;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  background-color: transparent;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #6b46c1;
+}
+
+.share-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.share-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e0;
+  border-radius: 12px;
+  background-color: #fff;
+  flex: 1;
+  padding: 0.25rem 0.5rem;
+}
+
+.share-input input {
+  flex: 1;
+  padding: 0.4rem 0.6rem;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  background: transparent;
+}
+
+.submit-button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #6b46c1;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s;
+  font-weight: 500;
+}
+
+.submit-button:hover {
+  background-color: #553c9a;
+}
+
+
+.description-box{
+width: 94%;
+border-radius: 12px;
+
+}
