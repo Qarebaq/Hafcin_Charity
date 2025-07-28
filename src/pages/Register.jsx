@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import "./Register.css"
+// import "./Register.css"
+import "./Login.css"
 function Register() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -20,20 +21,36 @@ function Register() {
   };
 
   return (
-    <div style={{ padding: '2rem' }}>
-      <h2>ثبت نام</h2>
-      <form onSubmit={handleRegister}>
-        <div>
-          <label>نام کاربری:</label><br/>
-          <input value={username} onChange={e => setUsername(e.target.value)} required />
-        </div>
-        <div>
-          <label>رمز عبور:</label><br/>
-          <input type="password" value={password} onChange={e => setPassword(e.target.value)} required />
-        </div>
-        <button type="submit">ثبت نام</button>
+    <div>
+    <div className="login-container">
+    <img style={{width: '100%'}} src="/assests/logo.png" alt="لوگو" className="logo" />
+
+      <div className="tabs">
+        <button className="tab active">وام‌دهنده</button>
+        <button className="tab">گروه جهادی</button>
+      </div>
+
+      <form className="login-form" >
+        <h2>ثبت نام</h2>
+        <label>شماره تماس</label>
+        <input
+          type="text"
+          value={username}
+          onChange={e => setUsername(e.target.value)}
+          required
+
+          placeholder='09121232453'
+        />
+
+        <button type="submit" className="login-button">
+          <span>ورود</span>
+          <span className="arrow">←</span>
+        </button>
       </form>
+
+
     </div>
+</div>
   );
 }
 

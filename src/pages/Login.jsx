@@ -37,6 +37,7 @@ function Login() {
           value={username}
           onChange={e => setUsername(e.target.value)}
           required
+          placeholder='۰۹۳۵۶۱۰۲۵۱۰'
         />
 
         <label>رمز ورود</label>
@@ -45,6 +46,7 @@ function Login() {
           value={password}
           onChange={e => setPassword(e.target.value)}
           required
+          placeholder='۰۹۳۵۶۱۰۲۵۱۰'
         />
 
         <button type="submit" className="login-button">
@@ -54,7 +56,7 @@ function Login() {
       </form>
 
       <div className="register-link">
-        حساب کاربری ندارید؟ از طریق این لینک <a href="/signup">ثبت‌نام</a> کنید.
+        حساب کاربری ندارید؟ از طریق این لینک <a href="/register">ثبت‌نام</a> کنید.
       </div>
     </div>
   );

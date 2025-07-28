@@ -1,0 +1,179 @@
+.dashboard-wrapper {
+  display: flex;
+  background-color: #f5f7fb00;
+  min-height: 100vh;
+  direction: rtl;
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.dashboard-content {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 260px;
+  margin-right: 40px;
+  max-height: 590px;
+  padding: 3px;
+  background: #e9edf5;
+  box-shadow: -1px 0 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.profile-section {
+    background-color: #ffffffff;
+    padding: 30px;
+  display: flex;
+  gap: 1rem;
+  border-radius: 12px;
+
+  margin-bottom: 2rem;
+}
+
+.avatar-icon {
+  background: #7a569d;
+  color: white;
+  padding: 0.9rem;
+  border-radius: 8px;
+  font-size: 1.4rem;
+}
+
+.user-info {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-button {
+  margin-top: 0.5rem;
+  background: transparent;
+  border: none;
+  color: #7a569d;
+  cursor: pointer;
+}
+
+.menu {
+  list-style: none;
+  padding: 25px;
+  margin-top: 1rem;
+
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  font-size: 0.95rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.logout-button {
+  background: #e9edf5;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  display: flex;
+  gap: 0.5rem;
+  color: #5e3c78;
+  cursor: pointer;
+}
+
+.main-panel {
+  flex: 1;
+  padding: 2rem;
+}
+
+.info-box {
+  background: #eef0f9;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.info-box button {
+  background: #ffffff;
+  border: 2px solid #d0d5f0;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: #5e3c78;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.txt-sarresid{
+    text-align: right;
+}
+
+.loan-card {
+    width: 550px;
+  background: #e9edf5;
+      color: #5e3c78;
+
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loan-header {
+    color: #5e3c78;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.loan-meta h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #5e3c78;
+}
+
+.due-date {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.loan-thumbnail {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.loan-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.details-button {
+  background: #5e3c78;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+

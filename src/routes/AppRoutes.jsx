@@ -4,6 +4,7 @@ import Login from '../pages/Login';
 import Register from '../pages/Register';
 import Dashboard from '../pages/Dashboard';
 import Jahadi  from '../pages/Jahadi';
+import RegisterJahadi from '../pages/RegisterJahadi';
 
 
 function AppRoutes() {
@@ -15,6 +16,7 @@ function AppRoutes() {
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/jahadi" element={<Jahadi />} />
+        <Route path="/RegisterJahadi" element={<RegisterJahadi />} />
       </Routes>
     </Router>
   );

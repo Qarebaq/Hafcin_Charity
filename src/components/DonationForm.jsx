@@ -22,11 +22,11 @@ export default function DonationForm() {
           <div className="row">
             <div className="input-group">
               <label>نام و نام خانوادگی</label>
-              <input type="text" placeholder="علی احمدی" />
+              <input style={{width: '90%'}} type="text" placeholder="علی احمدی" />
             </div>
             <div className="input-group">
               <label>شماره تماس</label>
-              <input type="text" placeholder="09356102510" />
+              <input style={{width: '90%'}} type="text" placeholder="09356102510" />
             </div>
           </div>
 

@@ -10,7 +10,7 @@ function LoanCard({ title, category, amount, progress, image, urgent }) {
 
       <div className="card-info">
         <p className="category">{category}</p>
-        <h3 className="title">{title}</h3>
+        <p className="title" style={{color: 'black' , fontSize: '18px' , textAlign: 'right'}}>{title}</p>
         <p className="amount">{amount.toLocaleString()} تومان</p>
       </div>
 
