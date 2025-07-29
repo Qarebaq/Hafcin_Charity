@@ -35,7 +35,22 @@ const loans = [
     urgent: true,
     image: '/assests/images/temp.jpg',
   },
-  
+      {
+    title: 'خرید لوازم التحریر',
+    category: 'اشتغال',
+    amount: 4600000,
+    progress: 50,
+    urgent: true,
+    image: '/assests/images/temp.jpg',
+  },
+      {
+    title: 'خرید لوازم التحریر',
+    category: 'اشتغال',
+    amount: 4600000,
+    progress: 50,
+    urgent: true,
+    image: '/assests/images/temp.jpg',
+  },
   // Add more as needed
 ];
 
