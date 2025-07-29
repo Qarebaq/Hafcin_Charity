@@ -7,9 +7,8 @@ function ReportCard({ title, subtitle, image }) {
       <div className="report-footer">
         <div className="report-text">
           <div className="report-title">{title}</div>
-          <div className="report-subtitle">{subtitle}</div>
         </div>
-        <span className="arrow">‹</span>
+        <span className="arrow">›</span>
       </div>
     </div>
   );

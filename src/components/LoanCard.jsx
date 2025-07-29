@@ -1,5 +1,5 @@
 import './LoanCard.css';
-
+//این ها همون اون کارت های صفحه اصلی هستند که وام های درجریان رو میگفت 
 function LoanCard({ title, category, amount, progress, image, urgent }) {
   return (
     <div className="loan-card">

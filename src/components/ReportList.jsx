@@ -3,18 +3,15 @@ import './ReportList.css';
 
 const reports = [
   {
-    title: 'گزارش تصویری خرید و اهدا',
-    subtitle: 'لوازم التحریر',
+    title: 'گزارش تصویری خرید و اهدا لوازم التحریر',
     image: '/assests/images/temp.jpg',
   },
   {
-    title: 'گزارش تصویری خرید و اهدا',
-    subtitle: 'لوازم التحریر',
+    title: ' گزارش تصویری خرید و اهدا لوازم التحریر',
     image: '/assests/images/temp.jpg',
   },
   {
-    title: 'گزارش تصویری خرید و اهدا',
-    subtitle: 'لوازم التحریر',
+    title: 'گزارش تصویری خرید و اهدا لوازم التحریر',
     image: '/assests/images/temp.jpg',
   },
 ];
